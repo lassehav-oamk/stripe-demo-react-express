@@ -39,6 +39,7 @@ const CheckoutForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <PaymentElement />
+      <p>Choose Card payment from above, then fill your card information and click submit button below.</p>
       <button>Submit</button>
     </form>
   );
